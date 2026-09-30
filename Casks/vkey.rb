@@ -1,7 +1,7 @@
 cask "vkey" do
-  version "0.3.0"
+  version "0.3.1"
 
-  sha256 "08cd5e48469ff171dd0a81d8cdfefc5d5163201d2b512fbcceba45be51593c8a"
+  sha256 "8ec9ce7b75d3e8a9aa5fd1e630af6a73888958dfc6125c7d41b592dd91f84e84"
 
   url "https://github.com/duongkimhung89/vkey/releases/download/v#{version}/VKey-#{version}-arm64.dmg"
 
