@@ -1,7 +1,7 @@
 cask "vkey" do
-  version "0.2.0"
+  version "0.3.0"
 
-  sha256 "134c4d1c07f14a61dbacf79635e3083bd7e0a9d077ba0ec7f4ae187cc97f209c"
+  sha256 "08cd5e48469ff171dd0a81d8cdfefc5d5163201d2b512fbcceba45be51593c8a"
 
   url "https://github.com/duongkimhung89/vkey/releases/download/v#{version}/VKey-#{version}-arm64.dmg"
 
@@ -13,4 +13,9 @@ cask "vkey" do
   depends_on macos: :ventura
 
   app "VKey.app"
+
+  caveats <<~EOS
+    Open VKey.app once after installation, then add VKey under
+    System Settings > Keyboard > Text Input.
+  EOS
 end
