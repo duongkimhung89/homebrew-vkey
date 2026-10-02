@@ -1,12 +1,10 @@
 cask "vkey" do
-  version "0.3.7"
-
-  sha256 "af4a8387743637a5fa9dbf2da2fa43bc8b36cabda782233f3a76d1d1aa405d2d"
+  version "0.3.9"
+  sha256 "ce069a87e4dc9aa089b26d44e727f49bd652800741cf2fbdd412fb1d8d767104"
 
   url "https://github.com/duongkimhung89/vkey/releases/download/v#{version}/VKey-#{version}-arm64.dmg"
-
   name "VKey"
-  desc "Vietnamese input method for macOS"
+  desc "Vietnamese input method"
   homepage "https://github.com/duongkimhung89/vkey"
 
   depends_on arch: :arm64
